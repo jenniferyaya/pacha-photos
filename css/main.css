@@ -4,13 +4,8 @@ body, p {
 }
 
 #site {
-  font-style: normal;
-  line-height: 1.5em;
-  font-size: 1rem;
   background-color: #dee9f7;
-
   font-family: "Cutive Mono", serif;
-  font-weight: 400;
   font-style: normal;
 }
 
@@ -46,6 +41,9 @@ p {
   color: #323232;
 }
 
+.blu a {
+      font-color: #001861;
+}
 .mini {
   font-size: .60rem;
 }
@@ -226,12 +224,12 @@ p {
   vertical-align: baseline;
   font-size: 0.8rem;
 }
-#header-navigation h1, h2, p {
+#header-navigation h1, #header-navigation h2, p {
   margin: 0;
   float: left;
   padding-left: 7.65%;
   padding-right: 3.65%;
-  font-color: #FF4433;
+  color: #FF4433;
 }
 #header-navigation p {
   margin: 0;
@@ -241,25 +239,45 @@ p {
 
 
 
-.orange {
-color: #FF4433;
-}
-
-a:link {
+#header-navigation h1 a:link {
   text-decoration: none;
+  color: #FF4433;
 }
-a:visited {
+#header-navigation h1 a:visited {
   color: #FF4433;
   text-decoration: none
 }
-a:hover {
+#header-navigation h1 a:hover {
   outline: none;
   color: #FF4433;
   transition: color .5s ease-out;
 }
-a:active {
-  color: #8a8a8a;
+ #header-navigation h1 a:active {
+  color:#FF4433;
 }
+#header-navigation p a:link {
+  text-decoration: none;
+  color: #0B0B58;
+}
+#header-navigation p a:visited {
+  color: #0B0B58;
+  text-decoration: none
+}
+#header-navigation p a:hover {
+  outline: none;
+  color: #0B0B58;
+  transition: color .5s ease-out;
+}
+ #header-navigation p a:active {
+  color: #0B0B58;
+}
+
+
+
+
+
+
+
 .underline {
   border-bottom: 1.75px solid #FF4433;
 }
@@ -268,15 +286,8 @@ a:active {
   color: #FF4433;;
 }
 
-li a:visited {
-  color: #10190e;
-  font-style: normal;
-  list-style-type: none;
-}
-ul {
-  list-style-type: none;
-  padding-left: 11%;
-  padding-top: 0;
+.nav p {
+  color: #001861;
 }
 
 
