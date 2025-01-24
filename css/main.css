@@ -234,7 +234,7 @@ p {
 #header-navigation p {
   margin: 0;
   float: left;
-  padding-left: 8%;
+  padding-left: 16%;
 }
 
 
@@ -257,19 +257,19 @@ p {
 }
 #header-navigation p a:link {
   text-decoration: none;
-  color: #0B0B58;
+  color: #060632;
 }
 #header-navigation p a:visited {
-  color: #0B0B58;
+  color: #060632;
   text-decoration: none
 }
 #header-navigation p a:hover {
   outline: none;
-  color: #0B0B58;
+  color: #060632;
   transition: color .5s ease-out;
 }
  #header-navigation p a:active {
-  color: #0B0B58;
+  color: #060632;
 }
 
 
